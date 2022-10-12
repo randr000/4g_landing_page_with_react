@@ -17,7 +17,7 @@ const links = [
 const Home = () => {
 	
 	return (
-		<Navbar />
+		<Navbar links={links}/>
 		
 	)
 };
