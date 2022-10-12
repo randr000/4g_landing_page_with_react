@@ -5,7 +5,7 @@ import NavbarMenu from './navbar-menu.jsx';
 const Navbar = ({links}) => {
 
     return (
-        <nav className="navbar navbar-expand-lg bg-dark">
+        <nav className="navbar navbar-expand-lg bg-dark fixed-top">
             <div className="container-fluid px-lg-5">
                 <a className="navbar-brand text-light" href="#">Start Bootstrap</a>
                 <MenuToggler />
